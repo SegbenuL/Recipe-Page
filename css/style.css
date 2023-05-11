@@ -1,0 +1,117 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  header nav li {
+    display: inline-block;
+    margin-right: 50px;
+  }
+  
+  header nav li:last-child {
+    margin-right: 20px;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }  
+    
+  header h1 {
+    margin-bottom: 10px;
+    color:burlywood;
+    font-weight: bolder;
+  }
+  
+#recipe{
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-sizing:content-box;
+    background-color:azure;
+    background-size: cover;
+    border-radius: 20px;
+    overflow: auto;
+  }
+  
+  #recipe h2 {
+    margin-bottom: 10px;
+    color-scheme:initial;
+    color:brown;
+  }
+  
+  
+  #recipe li {
+    list-style: none;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 5px;
+  }
+
+  #instructions h2 {
+    margin-bottom: 10px;
+    color-scheme:initial;
+    color:brown;
+  }
+  #instructions{
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: bisque;
+    border-radius: 20px;
+  }
+  img{
+    float:right;
+    width: 500px;
+    height: 500px;
+    margin-right: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  #food-images{
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  #food-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .food-image {
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+  }
+  
+  .food-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+  
+  .food-image:hover img {
+    transform: scale(1.2);
+  }
+  
+  
